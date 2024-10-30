@@ -1,0 +1,36 @@
+*{
+    font-family:'poppins';
+    text-decoration: none;
+    list-style: none;
+    margin:0px;
+    padding:0px
+}
+
+body img{
+    width:200px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding:10px;
+    margin:
+    
+}
+
+.menu {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu img{
+
+    width: 50px;
+    border: 3px;
+    border-color: blue;
+    border-radius: 50%;
+    margin:30px;
+}
