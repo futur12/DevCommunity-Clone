@@ -3,9 +3,15 @@
     text-decoration: none;
     list-style: none;
     margin:0px;
-    padding:0px
+    padding:0px;
+    color:white;
 }
 
+body{
+
+    background-color: rgb(2, 2, 8);
+    
+}
 body img{
     width:200px;
 }
@@ -13,17 +19,35 @@ body img{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    padding:10px;
-    margin:
+    background-color: rgb(2, 9, 24);
+    padding:3px;
     
 }
 
+.navbar input{
+
+    padding: 10px;
+    width: 20rem;
+}
+
+.navbar input{
+
+    justify-content: center;
+}
+
+
+.menu a{
+
+    display: flex;
+    gap:30px;
+    
+}
 .menu {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 30px;
 }
 
 .menu img{
@@ -33,4 +57,38 @@ body img{
     border-color: blue;
     border-radius: 50%;
     margin:30px;
+}
+
+.menug{
+
+    display: block;
+    margin:20px;
+    background-color: aliceblue;
+    padding:10px;
+    width:30vh;
+    justify-content: center;
+    align-items: center;
+    color:black;
+
+}
+.entete{
+    position:relative;
+}
+
+.m{
+    position:absolute;
+    top:50%;
+    left:25%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    gap:80px;
+    background-color: rgb(6, 19, 49);;
+    width: 90vh;
+    margin:25px;
+    color:black;
+    border-color: black;
+    border: 2px;
+    border-radius: 20px;
 }
