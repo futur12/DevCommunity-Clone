@@ -1,6 +1,6 @@
 *{
     font-family:'poppins';
-    text-decoration: none;
+    text-decoration: white;
     list-style: none;
     margin:0px;
     padding:0px;
@@ -9,17 +9,17 @@
 
 body{
 
-    background-color: rgb(2, 2, 8);
+    background-color: rgb(1, 16, 24);
     
 }
 body img{
-    width:200px;
+    width:100px;
 }
 .navbar{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(2, 9, 24);
+    background-color: rgb(1, 25, 36);
     padding:3px;
     
 }
@@ -27,7 +27,8 @@ body img{
 .navbar input{
 
     padding: 10px;
-    width: 20rem;
+    width: 45rem;
+    border-radius: 50px;
 }
 
 .navbar input{
@@ -54,7 +55,7 @@ body img{
 
     width: 50px;
     border: 3px;
-    border-color: blue;
+    border-color: rgb(2, 48, 70);
     border-radius: 50%;
     margin:30px;
 }
@@ -63,32 +64,56 @@ body img{
 
     display: block;
     margin:20px;
-    background-color: aliceblue;
+    background-color: rgb(1, 25, 36);
     padding:10px;
     width:30vh;
     justify-content: center;
     align-items: center;
-    color:black;
+    color:rgb(5, 71, 102);
 
 }
 .entete{
-    position:relative;
+    position:absolute;
 }
 
 .m{
-    position:absolute;
-    top:50%;
-    left:25%;
+    top:85%;
+    left: 28%;
+    right: 40%;
+    position: relative;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
+    border: 2px;
+    background-color: rgb(1, 25, 36);
+    color: rgb(177, 177, 177);
+    border-color: aqua;
+    width: 119vh;
+    align-items: center;
+    gap: 80px;
+    margin: 20px;
+    border-radius: 4px;
+   
+}
+.m.a{
+    margin-bottom: 25px;
+}
+
+.post{
+
+    position:relative;
+    top:5%;
+    left: 28%;
+    right: 40%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
     align-items: center;
     gap:80px;
-    background-color: rgb(6, 19, 49);;
-    width: 90vh;
-    margin:25px;
-    color:black;
-    border-color: black;
+    background-color: rgb(1, 25, 36);;
+    width: 119vh;
+    margin:5px;
+    color:rgb(1, 25, 36);
     border: 2px;
-    border-radius: 20px;
+    border-radius: 4px;
 }
